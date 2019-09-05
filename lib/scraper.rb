@@ -44,7 +44,7 @@ def self.scrape_profile_page(profile_url)
       student[:profile_quote] = page.css(".profile-quote").text
       student[:bio] = page.css("div.description-holder p").text
       student
-      binding.pry
+      #binding.pry
   end
 
 end
